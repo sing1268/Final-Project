@@ -163,7 +163,7 @@ function mouseEvent(event) {
     generateImages(2);
   } else if (event.target.id === "mediumLevel") {
     generateImages(4);
-  } //check if user wants to switch full screen mode
+  }
   else if (event.target.id === "hardLevel") {
     generateImages(6);
   } else if (event.target.id === "restart") {
